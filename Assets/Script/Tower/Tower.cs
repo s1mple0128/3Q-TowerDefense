@@ -14,10 +14,13 @@ namespace Script.Tower
 {
     public enum TowerType
     {
-        Normal, // 普通防御塔
+        Normal, // 普通测试防御塔
     }
 
-    public class Tower : BaseObject
+    /// <summary>
+    /// 塔 基础类，标准塔模板
+    /// </summary>
+    public class Tower : BaseObject, ITowerFightInterface, ITowerLevelInterface
     {
         public TowerType towerType = TowerType.Normal;
         // Use this for initialization
@@ -27,11 +30,22 @@ namespace Script.Tower
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
+        {
+            SeekObject();
+            TryAttackObject();
+        }
+
+        public bool UpgradeTower()
+        {
+            return false;
+        }
+
+        public void SeekObject()
         {
         }
 
-        public void UpgradeTower()
+        public void TryAttackObject()
         {
         }
     }

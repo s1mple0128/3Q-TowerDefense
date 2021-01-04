@@ -14,19 +14,15 @@ using UnityEngine;
 
 namespace Script.Tower
 {
+    /// <summary>
+    /// 塔基，负责接受外部操作信息
+    /// </summary>
     public class TowerBase : MonoBehaviour
     {
         public GameObject towerObj = null;
 
-        // Use this for initialization
-        void Start()
-        {
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        }
+        [SerializeField]
+        private GameObject curTarget = null;
 
         private void OnMouseDown()
         {

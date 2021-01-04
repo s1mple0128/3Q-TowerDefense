@@ -108,6 +108,8 @@
      <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
      <Compile Include="Assets\Script\Logger.cs" />
      <Compile Include="Assets\Script\Tower\TowerManager.cs" />
+     <Compile Include="Assets\Script\Tower\ITowerFightInterface.cs" />
+     <Compile Include="Assets\Script\Tower\ITowerLevelInterface.cs" />
      <None Include="Assets\MOBA and Tower Defense\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\MOBA and Tower Defense\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\MOBA and Tower Defense\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
