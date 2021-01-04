@@ -8,23 +8,30 @@
 // -  All Rights Reserved.
 //======================================================
 
-namespace Script.Object
+using Script.Object;
+
+namespace Script.Tower
 {
-    public class Tower : MyObject {
-    
+    public enum TowerType
+    {
+        Normal, // 普通防御塔
+    }
+
+    public class Tower : BaseObject
+    {
+        public TowerType towerType = TowerType.Normal;
         // Use this for initialization
-        void Start ()
+        private void Start()
         {
-            type = (int)ConstConfig.ObjectType.Tower;
-            Defence = 1234;
-        }
-    
-        // Update is called once per frame
-        void Update () {
-        
+            type = ObjectType.Tower;
         }
 
-        public void upgradeTower()
+        // Update is called once per frame
+        void Update()
+        {
+        }
+
+        public void UpgradeTower()
         {
         }
     }

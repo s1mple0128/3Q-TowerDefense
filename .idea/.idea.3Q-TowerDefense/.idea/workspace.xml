@@ -31,26 +31,33 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Copyright.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/GameMain.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ConstConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB02AC76-3CC5-4D76-889A-E3FDE03DF39B/2b/285b003d/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Logger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Camera/CameraMoveControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Object/MyObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Object/TowerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Object/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/TowerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GameApp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Object/Tower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/ConstConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/TowerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Factory/ObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/GameApp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Factory/ObjectFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Object/MyObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Object/Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Camera/CameraMoveControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Logger.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Object/TowerBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Object/MyObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Object/Object.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Object/Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ConstConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Object/BaseObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Factory/ObjectFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Tower/TowerBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Tower/TowerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -89,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609779915839</updated>
-      <workItem from="1609779933348" duration="1107000" />
+      <workItem from="1609779933348" duration="3013000" />
     </task>
     <servers />
   </component>
@@ -117,6 +125,10 @@
       <screen x="0" y="0" width="2479" height="1440" />
     </state>
     <state x="1103" y="581" key="#Notifications/0.0.2479.1440@0.0.2479.1440" timestamp="1609780199218" />
+    <state x="714" y="389" key="SettingsEditor" timestamp="1609782438209">
+      <screen x="0" y="0" width="2479" height="1440" />
+    </state>
+    <state x="714" y="389" key="SettingsEditor/0.0.2479.1440@0.0.2479.1440" timestamp="1609782438209" />
     <state x="418" y="468" key="Vcs.Push.Dialog.v2" timestamp="1609780431197">
       <screen x="0" y="0" width="2479" height="1440" />
     </state>
@@ -125,5 +137,9 @@
       <screen x="0" y="0" width="2479" height="1440" />
     </state>
     <state x="778" y="680" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2479.1440@0.0.2479.1440" timestamp="1609780209337" />
+    <state x="624" y="653" width="672" height="678" key="search.everywhere.popup" timestamp="1609781574576">
+      <screen x="0" y="0" width="2479" height="1440" />
+    </state>
+    <state x="624" y="653" width="672" height="678" key="search.everywhere.popup/0.0.2479.1440@0.0.2479.1440" timestamp="1609781574576" />
   </component>
 </project>
