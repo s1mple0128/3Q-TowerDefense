@@ -25,7 +25,7 @@ namespace Script.Tower
 
         public static GameObject GetNearestObjectByRadius(float radius)
         {
-            return null;
+            return UnityEngine.Camera.main.gameObject;
         }
     }
 }

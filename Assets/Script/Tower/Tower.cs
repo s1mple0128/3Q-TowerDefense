@@ -9,6 +9,7 @@
 //======================================================
 
 using Script.Object;
+using UnityEngine;
 
 namespace Script.Tower
 {
@@ -23,6 +24,11 @@ namespace Script.Tower
     public class Tower : BaseObject, ITowerFightInterface, ITowerLevelInterface
     {
         public TowerType towerType = TowerType.Normal;
+
+        public GameObject curTarget;
+        
+        public float attackRadius = 10.0f;
+        
         // Use this for initialization
         private void Start()
         {
@@ -43,10 +49,18 @@ namespace Script.Tower
 
         public void SeekObject()
         {
+            if (curTarget) return;
+            var obj = TowerManager.GetNearestObjectByRadius(attackRadius);
+            curTarget = obj;
         }
 
         public void TryAttackObject()
         {
+            if (curTarget)
+            {
+                transform.LookAt(curTarget.transform);
+            }
+            //todo: 攻击部分
         }
     }
 }

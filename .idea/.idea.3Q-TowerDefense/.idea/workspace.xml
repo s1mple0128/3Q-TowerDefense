@@ -16,20 +16,18 @@
         <item name="GROUP_NODE:3Q-TowerDefense" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:3Q-TowerDefense" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0afd205-b3e1-4be8-bad4-a6f71886779a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Tower/ITowerFightInterface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Tower/ITowerFightInterface.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Tower/ITowerLevelInterface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Tower/ITowerLevelInterface.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3Q-TowerDefense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3Q-TowerDefense/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="c0afd205-b3e1-4be8-bad4-a6f71886779a" name="Default Changelist" comment="基本塔操作接口和模板">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3Q-TowerDefense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3Q-TowerDefense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Tower/TowerFight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Tower/Tower.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Tower/TowerFight.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Tower/TowerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Tower/TowerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Tower/TowerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Tower/TowerManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +46,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/ITowerFightInterface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///TowerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Logger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///GameMain.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///TowerManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Camera/CameraMoveControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Object/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/ITowerLevelInterface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/TowerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GameApp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/TowerFight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Tower/TowerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Factory/ObjectFactory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -71,13 +71,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/Object/BaseObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Factory/ObjectFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Tower/TowerInterface.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Tower/TowerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Tower/ITowerInterface.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Tower/ITowerFightInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Tower/ITowerLevelInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Tower/TowerFight.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Tower/TowerBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Tower/Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Tower/TowerManager.cs" />
       </list>
     </option>
   </component>
@@ -117,8 +117,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609779915839</updated>
-      <workItem from="1609779933348" duration="5069000" />
+      <workItem from="1609779933348" duration="6312000" />
     </task>
+    <task id="LOCAL-00001" summary="基本塔操作接口和模板">
+      <created>1609785123858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609785123858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基本塔操作接口和模板">
+      <created>1609785128795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609785128795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +154,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="基本塔操作接口和模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本塔操作接口和模板" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1103" y="581" key="#Notifications" timestamp="1609780199218">
@@ -157,14 +174,14 @@
       <screen x="0" y="0" width="2479" height="1440" />
     </state>
     <state x="92" y="92" width="2295" height="1256" key="VCS.FileHistoryDialog/0.0.2479.1440@0.0.2479.1440" timestamp="1609784749687" />
-    <state x="418" y="468" key="Vcs.Push.Dialog.v2" timestamp="1609780431197">
+    <state x="418" y="468" key="Vcs.Push.Dialog.v2" timestamp="1609785224052">
       <screen x="0" y="0" width="2479" height="1440" />
     </state>
-    <state x="418" y="468" key="Vcs.Push.Dialog.v2/0.0.2479.1440@0.0.2479.1440" timestamp="1609780431197" />
-    <state x="778" y="680" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609783649374">
+    <state x="418" y="468" key="Vcs.Push.Dialog.v2/0.0.2479.1440@0.0.2479.1440" timestamp="1609785224052" />
+    <state x="778" y="680" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609785373872">
       <screen x="0" y="0" width="2479" height="1440" />
     </state>
-    <state x="778" y="680" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2479.1440@0.0.2479.1440" timestamp="1609783649374" />
+    <state x="778" y="680" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2479.1440@0.0.2479.1440" timestamp="1609785373872" />
     <state x="624" y="653" width="672" height="678" key="search.everywhere.popup" timestamp="1609784632526">
       <screen x="0" y="0" width="2479" height="1440" />
     </state>
