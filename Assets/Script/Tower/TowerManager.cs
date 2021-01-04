@@ -22,5 +22,10 @@ namespace Script.Tower
             towerBase.AddTower(tower.GetComponent<Tower>());
             return true;
         }
+
+        public static GameObject GetNearestObjectByRadius(float radius)
+        {
+            return null;
+        }
     }
 }
