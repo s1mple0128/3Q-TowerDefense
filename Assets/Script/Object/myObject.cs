@@ -8,49 +8,48 @@
 // -  All Rights Reserved.
 //======================================================
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-
-public class myObject : MonoBehaviour
+namespace Script.Object
 {
-    #region 定义私有成员变量
-    private int _Hp;
+    public class MyObject : MonoBehaviour
+    {
+        #region 定义私有成员变量
+        private int _Hp;
 
-    private int _Attack;
+        private int _Attack;
     
-    private int _Defence;
+        private int _Defence;
 
-    public int type;
-    #endregion
-    public int Attack
-    {
-        get => _Attack;
-        set => _Attack = value;
-    }
+        public int type;
+        #endregion
+        public int Attack
+        {
+            get => _Attack;
+            set => _Attack = value;
+        }
 
-    public int Defence
-    {
-        get => _Defence;
-        set => _Defence = value;
-    }
+        public int Defence
+        {
+            get => _Defence;
+            set => _Defence = value;
+        }
 
-    public int Hp
-    {
-        get => _Hp;
-        set => _Hp = value;
-    }
+        public int Hp
+        {
+            get => _Hp;
+            set => _Hp = value;
+        }
 
 
-    // Use this for initialization
-    void Start () {
+        // Use this for initialization
+        void Start () {
         
-    }
+        }
     
-    // Update is called once per frame
-    void Update () {
+        // Update is called once per frame
+        void Update () {
         
+        }
     }
 }

@@ -7,27 +7,25 @@
 // -  (C) Copyright 2008 - 2018,wegame ,Inc.
 // -  All Rights Reserved.
 //======================================================
-using System.Collections;
-using System.Collections.Generic;
-using Script;
-using UnityEditor.UI;
-using UnityEngine;
 
-public class Tower : myObject {
+namespace Script.Object
+{
+    public class Tower : MyObject {
     
-    // Use this for initialization
-    void Start ()
-    {
-        type = (int)ConstConfig.ObjectType.Tower;
-        Defence = 1234;
-    }
+        // Use this for initialization
+        void Start ()
+        {
+            type = (int)ConstConfig.ObjectType.Tower;
+            Defence = 1234;
+        }
     
-    // Update is called once per frame
-    void Update () {
+        // Update is called once per frame
+        void Update () {
         
-    }
+        }
 
-    public void upgradeTower()
-    {
+        public void upgradeTower()
+        {
+        }
     }
 }

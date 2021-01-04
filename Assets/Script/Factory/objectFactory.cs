@@ -3,12 +3,12 @@ using UnityEngine;
 
 namespace Script.Factory
 {
-    public class objectFactory:MonoBehaviour 
+    public class ObjectFactory:MonoBehaviour 
     {
-        private static volatile objectFactory _instance;
+        private static volatile ObjectFactory _instance;
         private static object _lock = new object();
 
-        public static objectFactory Instance
+        public static ObjectFactory Instance
         {
             get
             {
@@ -18,7 +18,7 @@ namespace Script.Factory
                     {
                         if (_instance == null)
                         {
-                            _instance = new objectFactory();
+                            _instance = new ObjectFactory();
                         }
                     }
                 }
@@ -27,7 +27,7 @@ namespace Script.Factory
             }
         }
 
-        private objectFactory()
+        private ObjectFactory()
         {
         }
 
